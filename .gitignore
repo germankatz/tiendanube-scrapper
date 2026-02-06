@@ -1,0 +1,13 @@
+# Env y secretos
+.env
+
+# Archivos de texto (datos, URLs, progreso)
+*.txt
+
+# Carpeta de productos descargados (imágenes y JSON por producto)
+productos/
+
+# Entorno virtual
+.venv/
+venv/
+env/
