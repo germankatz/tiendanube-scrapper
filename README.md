@@ -43,6 +43,9 @@ Edita `.env` y define:
 | `CARPETA_PRODUCTOS` | Carpeta donde se descargan fotos y JSON por producto |
 | `ARCHIVO_PROGRESO` | Archivo donde se guarda el progreso para poder retomar |
 
+### Tip extra + en criollo
+Si a la `BASE_URL` le concatenas `/search/?q=%2520&mpage=999999` o simplemente haces la búsqueda del caracter espacio `%20` y si tiene infinite scroll la última página podes conseguir el código con todos los links completos en `INPUT_HTML`, la onda es que copies en el inspector el div class container, eso tiene el grid con los items y de ahi se sacan los links
+
 ## Uso
 
 **1. Extraer URLs desde el HTML**
